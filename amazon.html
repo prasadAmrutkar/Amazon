@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png" width="50" height="50" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Account</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container-fluid bg-light p-5 text-center">
+        <h1>Welcome to Our Shopping App</h1>
+        <p>Discover exclusive deals and products just for you!</p>
+    </div>
+
+    <!-- Products Section -->
+    <div class="container mt-4">
+        <h2>Featured Products</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/I/81CgtwSII3L._SL1500_.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 15 Pro</h5>
+                        <p class="card-text">Inclusive of all taxes
+                            EMI starts at ₹7,752. No Cost EMI available.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Price: ₹1,59,900</small>
+                        <button class="btn btn-primary float-end">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/I/81+GIkwqLIL._SL1500_.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 15 Pro</h5>
+                        <p class="card-text">Inclusive of all taxes
+                            EMI starts at ₹5,813. No Cost EMI available.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Price: ₹1,19,900</small>
+                        <button class="btn btn-primary float-end">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/I/81fxjeu8fdL._SL1500_.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 15 Pro</h5>
+                        <p class="card-text">Inclusive of all taxes
+                            EMI starts at ₹6,540. No Cost EMI available.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Price: ₹1,34,900</small>
+                        <button class="btn btn-primary float-end">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deals Section -->
+    <div class="container mt-5">
+        <h2>Today's Deals</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Deal Card 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61SD6NfzdpL._SX679_.jpg" class="card-img-top" alt="Deal 1">
+                    <div class="card-body">
+                        <h5 class="card-title">MIA FASHION Men's Bomber Jacket</h5>
+                        <p class="card-text">50% off on selected items!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Deal Card 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61ux7FZUs-L._SX679_.jpg" class="card-img-top" alt="Deal 2">
+                    <div class="card-body">
+                        <h5 class="card-title">MIA FASHION Men's Bomber Jacket</h5>
+                        <p class="card-text">Special offer on jackets!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Deal Card 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61SD6NfzdpL._SX679_.jpg" class="card-img-top" alt="Deal 1">
+                    <div class="card-body">
+                        <h5 class="card-title">MIA FASHION Men's Bomber Jacket</h5>
+                        <p class="card-text">Buy one, get one free!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Deal Card 4 -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61ux7FZUs-L._SX679_.jpg" class="card-img-top" alt="Deal 2">
+                    <div class="card-body">
+                        <h5 class="card-title">MIA FASHION Men's Bomber Jacket</h5>
+                        <p class="card-text">Up to 70% off on clothing!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container mt-5">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><b><u>Name</u></b></label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label"><b><u>Email address</u></b></label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label"><b><u>Message</u></b></label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h4>Get in touch with us!</h4>
+                <p><b>Email:</b>prasadamrutkar07@gmail.com</p>
+                <p><b>Phone:</b>+91 7517783691</p>
+                <p><b>Address:</b>"Keshavkunj", Plot No.13 Prasad Nagar Cidco-Ambad Link Road Nashik</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2024 Shopping App. All rights reserved.</p>
+        <a href="#" class="text-white">Privacy Policy</a> | 
+        <a href="#" class="text-white">Terms of Service</a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
